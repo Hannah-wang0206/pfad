@@ -28,7 +28,7 @@ def get_url(url, filename):
     return page
 
 
-for i in range(5,66):
+for i in range(40,58):
     tab = get_url(os.getenv('URL').format(id=f'{i:02}'), f'tab{i:02}')
     if tab:
         lines = tab.splitlines()
