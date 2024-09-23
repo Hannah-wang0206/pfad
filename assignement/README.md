@@ -1,1 +1,2 @@
-I got the data from NASA Planetary Data System
+First, run the main.py script, in which I retrieve data related to the physical information of the Martian atmosphere provided by the NASA Planetary Data System.
+Secondly, run the plt.py script, where I conduct a visual analysis of the acquired data. I have created a 3D scatter plot with the x, y, and z axes representing the latitude, longitude, and altitude from the obtained data, respectively. The scatter points represent density and scale height, with the color intensity indicating the magnitude of the values.
